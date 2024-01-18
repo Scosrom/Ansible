@@ -32,7 +32,7 @@ Ansible sigue una arquitectura simple y consta de los siguientes componentes pri
 
 ## Contenido
 
-- [Instalación Ansible](instalacion.md)
+- [Instalación Ansible](instalacion.sh)
 - [Comandos](comandos.md)
 
 ## Referencias
