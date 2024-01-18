@@ -30,6 +30,11 @@ Ansible sigue una arquitectura simple y consta de los siguientes componentes pri
 - **Módulos:** Conjuntos de comandos utilizados para realizar tareas en los nodos.
 - **Playbooks:** Definen las tareas y configuraciones a aplicar en los nodos.
 
+## Contenido
+
+- [Instalación Ansible](instalacion.md)
+- [Comandos](comandos.md)
+
 ## Referencias
 
 - [Sitio oficial de Ansible](https://www.ansible.com/)
