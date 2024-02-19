@@ -1,4 +1,8 @@
 # Configuración de un Host de Windows para Ansible
+
+![image](https://github.com/Scosrom/Ansible/assets/114906778/b7b9081f-9a66-4075-9273-a4981e554d1a)
+
+
 Este documento detalla la configuración requerida antes de que Ansible pueda comunicarse con un host de Microsoft Windows.
 
 - Requisitos del Host
