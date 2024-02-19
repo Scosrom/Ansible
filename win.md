@@ -101,10 +101,12 @@ Este comando mostrará las configuraciones actuales del servicio, como el SDDL r
 ## Configuración un inventario para windows
 
 /etc/hosts
+
 ![image](https://github.com/Scosrom/Ansible/assets/114906778/896eb9e6-c4cc-4d60-95d5-5a0ed1cbb355)
 
 
 archivo inventario
+
 ![image](https://github.com/Scosrom/Ansible/assets/114906778/a8c5273c-8a10-46e3-b04a-095718192e36)
 
 
