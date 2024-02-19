@@ -1,16 +1,18 @@
 # Configuración de un Host de Windows para Ansible
 Este documento detalla la configuración requerida antes de que Ansible pueda comunicarse con un host de Microsoft Windows.
 
-Requisitos del Host
+- Requisitos del Host
+
 Para que Ansible pueda comunicarse con un host de Windows y utilizar módulos de Windows, el host de Windows debe cumplir con estos requisitos básicos de conectividad:
 
-Requisitos del sistema operativo: En general, Ansible puede administrar versiones de Windows bajo el soporte actual y extendido de Microsoft. Esto incluye Windows 10, 11, Windows Server 2016, 2019 y 2022.
+**Requisitos del sistema operativo:** En general, Ansible puede administrar versiones de Windows bajo el soporte actual y extendido de Microsoft. Esto incluye Windows 10, 11, Windows Server 2016, 2019 y 2022.
 
-PowerShell y .NET Framework: Es necesario instalar PowerShell 5.1 o más reciente y al menos .NET Framework 4.0 en el host de Windows.
+**PowerShell y .NET Framework:** Es necesario instalar PowerShell 5.1 o más reciente y al menos .NET Framework 4.0 en el host de Windows.
 
-WinRM: Es necesario crear y activar un listener de WinRM. Consulta la sección WinRM Listener para más detalles.
+**WinRM:** Es necesario crear y activar un listener de WinRM. Consulta la sección WinRM Listener para más detalles.
 
-Actualización de PowerShell y .NET Framework
+- Actualización de PowerShell y .NET Framework
+
 Ansible requiere PowerShell versión 5.1 y .NET Framework 4.6 o más reciente para funcionar correctamente. Si la imagen base del sistema operativo no cumple con estos requisitos, puedes utilizar el script Upgrade-PowerShell.ps1 para actualizarlos.
 
 
