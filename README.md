@@ -35,6 +35,12 @@ Ansible sigue una arquitectura simple y consta de los siguientes componentes pri
 - [Instalación Ansible](instalacion.sh)
 - [Comandos](comandos.md)
 
+
+## Host 
+
+- [Conectar con aws](https://github.com/Scosrom/Ansible-aws)
+- [Conectar con Windows](win.md)
+  
 ## Referencias
 
 - [Sitio oficial de Ansible](https://www.ansible.com/)
